@@ -5,7 +5,7 @@
 
 /*
     调用customized_spmm()
-    
+    采用一维数组的输入
 */
 
 void Mat2CSR(float **arr, int m, int n, int *row_ptr, int *col, float *val);
